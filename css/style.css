@@ -113,8 +113,9 @@ main
 
 #image .material-icons
 {
-    transform: rotate(90deg);
-    font-size:4em;
+  transform: rotate(180deg)scale(1.5,1); 
+
+    font-size:4.5em;
 }
 
 

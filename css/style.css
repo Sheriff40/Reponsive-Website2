@@ -1,0 +1,223 @@
+
+
+body
+{
+    background:linear-gradient(to right,#ed6437,#f09837);
+    margin:0px;
+    padding: 15% 0;
+    height:100%;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+}
+
+main
+{
+    width:70%;
+    margin: 0 auto;
+    vertical-align:middle;
+}
+
+#section1
+{
+    display: flex;
+    width: 100%;
+    
+}
+
+#article1
+{
+    text-align: center;
+    color:white;
+    width:45%;
+}
+
+
+#article1 p
+{
+    margin:30px 0px;
+}
+
+#article1 button
+{
+    border-radius: 30px;
+    padding:10px 20px;
+    border:1px solid white;
+}
+
+
+#article2
+{   
+   
+    width:55%;
+    margin-left: 60px;
+   
+}
+ 
+.oval
+{
+    width:20%;
+    height:100%;
+    border-radius:100% 0 0 100%;
+    background:#f8f8f8;
+    float: left;
+}
+
+#article2-form
+{
+    width:80%;
+    padding:30px 30px 30px 0px;
+    box-sizing: border-box;
+    background:#f8f8f8;
+    float: left;
+    margin-left:-60px;
+    border-radius:20px 0 0 20px;
+   
+}
+
+#article2-form h2
+{   
+   text-align: center;
+   color:#4f4f4f;
+   font-size: 1.7em;
+}
+
+#article2-form form input
+{
+    padding:7px;
+
+}
+
+#article2-form form input:not(:last-child)
+{   
+    width:100%;
+    margin-bottom:10px;
+    background:white;
+    border:1px solid #dedede;
+    color:black;
+    border-radius:3px;
+    box-shadow:0px 0px 1px #dedede;
+    box-sizing: border-box;
+}
+
+#article2-form form input[type="submit"]
+{
+    padding:8px 20px;
+   text-align:right;
+   background:#ef9d38;
+   border:1px solid #ef9d38;
+   border-radius: 20px;
+   color:white;
+   margin:10px 0;
+   float: right;
+}
+
+#image .material-icons
+{
+    transform: rotate(90deg);
+    font-size:4em;
+}
+
+
+
+.clear
+{
+    clear:both;
+}
+
+@media screen and (min-width: 0px) and (max-width: 600px){
+
+
+
+  main
+  {
+      width:80%;
+      margin:0 auto;
+      text-align: center;
+  }
+    
+   
+    #section1
+    {
+        flex-wrap: wrap;
+    }
+
+    #section1 #article1
+    {
+        width: 100%;
+    }
+
+    #article2 
+    {
+        margin:20px 0px;
+        width:100%;
+        padding:0px;
+        
+    }
+
+
+    #article2 .oval
+    {
+        display: none;
+      
+    }
+
+    #article2-form
+    {
+        margin:0px;
+        width:100%;
+        float: none;
+        padding:20px;
+        border-radius: 0;
+     
+    }
+
+}
+
+@media screen and (min-width:600px) and (max-width:900px)
+{
+
+    
+  main
+  {
+      width:80%;
+      margin:0 auto;
+      text-align: center;
+  }
+    
+   
+    #section1
+    {
+        flex-wrap: wrap;
+    }
+
+    #section1 #article1
+    {
+        width: 100%;
+    }
+
+    #article2 
+    {
+        margin:20px 0px;
+        width:100%;
+        padding:0px;
+        
+    }
+
+
+    #article2 .oval
+    {
+        display: none;
+      
+    }
+
+    #article2-form
+    {
+        margin:0px;
+        width:100%;
+        float: none;
+        padding:20px;
+        border-radius: 0;
+     
+    }
+
+}
